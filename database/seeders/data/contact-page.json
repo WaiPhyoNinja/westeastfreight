@@ -1,0 +1,145 @@
+{
+  "translations": {
+    "en": {
+      "title": "Contact Us",
+      "meta_title": "Contact Us | Reach out to our team if you need help",
+      "meta_description": null
+    },
+    "my": {
+      "title": "ဆက်သွယ်ရန်",
+      "meta_title": "ဆက်သွယ်ရန် | West East Freight",
+      "meta_description": null
+    },
+    "th": {
+      "title": "Contact",
+      "meta_title": "Contact Us | Reach out to our team if you need help",
+      "meta_description": null
+    }
+  },
+  "blocks": [
+    {
+      "type": "vue_header",
+      "header_image": "page-blocks/contact/header-foreground.png",
+      "translations": {
+        "en": {
+          "link": [
+            {
+              "link": "/",
+              "link_text": "Home"
+            },
+            {
+              "link": null,
+              "link_text": "Contact Us"
+            }
+          ],
+          "title": "Contact Us"
+        },
+        "my": {
+          "link": [
+            {
+              "link": "/",
+              "link_text": "မူလစာမျက်နှာ"
+            },
+            {
+              "link": null,
+              "link_text": "ဆက်သွယ်ရန်"
+            }
+          ],
+          "title": "ဆက်သွယ်ရန်"
+        }
+      },
+      "animation_image": "page-blocks/contact/header-animation.png",
+      "header_bg_image": "page-blocks/contact/header-background.jpg"
+    },
+    {
+      "card": [
+        {
+          "image": "page-blocks/contact/phone.png",
+          "translations": {
+            "en": {
+              "title": "Contact Us",
+              "description": "<p>&nbsp;</p>\n<p>+66 653891500 &nbsp;&nbsp;</p>"
+            },
+            "my": {
+              "title": "ဆက်သွယ်ရန်",
+              "description": "<p>(+95) 9 9556 24280</p>"
+            }
+          }
+        },
+        {
+          "image": "page-blocks/contact/email.png",
+          "translations": {
+            "en": {
+              "title": "Mail Us",
+              "description": "<p>&nbsp;</p>\n<p>we.info@westeastfreight.com</p>"
+            },
+            "my": {
+              "title": "မေးလ်",
+              "description": "<p>we.info@westeastfreight.com</p>"
+            }
+          }
+        },
+        {
+          "image": "page-blocks/contact/hours.png",
+          "translations": {
+            "en": {
+              "title": "Working Hours",
+              "description": "<p>&nbsp;</p>\n<p>Monday - Saturday</p>"
+            },
+            "my": {
+              "title": "ရုံးချိန်",
+              "description": "<p>တနလာ် - စနေ</p>"
+            }
+          }
+        },
+        {
+          "image": "page-blocks/contact/location.png",
+          "translations": {
+            "en": {
+              "title": "Our Office Location",
+              "description": "<p>35 th floor,33/4, Tower A, Rama9 Road, Huai Khwang, Bangkok 10310, Thailand</p>"
+            },
+            "my": {
+              "title": "ရုံးတည်နေရာ",
+              "description": "<p>မရမ်းကုန်းမြို့၊ လမ်း ၅၀</p>"
+            }
+          }
+        }
+      ],
+      "type": "vue_contact_card",
+      "translations": []
+    },
+    {
+      "type": "vue_map_content",
+      "translations": {
+        "en": {
+          "title": "Get A Contact",
+          "map_link": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2717.9504432443487!2d100.56802789999999!3d13.7589124!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d5f4d9f6782d5%3A0x64a64d6e680c2b59!2sWest%20East%20Freight%20Logistics%20Co.%2CLtd!5e1!3m2!1sen!2ssg!4v1768634675911!5m2!1sen!2ssg\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+        },
+        "my": {
+          "title": "ဆက်သွယ်ရန်",
+          "map_link": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3819.0665009808254!2d96.15568807469899!3d16.823056718817952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30c1930901c3cdff%3A0xbf49e222a1948ee0!2sWest%20East%20Freight%20Logistics!5e0!3m2!1sen!2smm!4v1735384000000!5m2!1sen!2smm\" class=\"google-map__one\" allowfullscreen=\"\"></iframe>"
+        }
+      }
+    },
+    {
+      "type": "vue_info",
+      "translations": {
+        "en": {
+          "icon": "page-blocks/contact/phone.png",
+          "title": "<p>Questions and support for</p>\n<p>shipment status</p>",
+          "content": "<p>Call Us Free</p>\n<p>+66 653891500</p>",
+          "cta_link": "/request-quote",
+          "link_text": "Get A Quote"
+        },
+        "my": {
+          "icon": "page-blocks/contact/phone.png",
+          "title": "<p>အကောင်းဆုံး ဝန်ဆောင်မှု<br>များကို ရှာဖွေနေပါသလား?</p>",
+          "content": "<p>ဆက်သွယ်ရန်</p>\n<p>(+95) 9 9556 24280</p>",
+          "cta_link": "/request-quote",
+          "link_text": "စျေးနှုန်းတောင်းခံရန်"
+        }
+      }
+    }
+  ]
+}

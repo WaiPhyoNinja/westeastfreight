@@ -1,0 +1,1 @@
+<section class="cta"><div><h2>{{ $content['heading'] ?? '' }}</h2><div>{!! $content['body'] ?? '' !!}</div></div>@if(!empty($content['button_label']))<a class="button button-light" href="{{ $content['button_url'] ?? '#' }}">{{ $content['button_label'] }} <span>→</span></a>@endif</section>

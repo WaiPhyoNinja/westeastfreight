@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Filament\Resources\InvoiceSettingResource\Pages;
+
+use App\Filament\Resources\InvoiceSettingResource;
+use Filament\Resources\Pages\EditRecord;
+
+class EditInvoiceSetting extends EditRecord
+{
+    protected static string $resource = InvoiceSettingResource::class;
+}
