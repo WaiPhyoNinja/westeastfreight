@@ -20,7 +20,14 @@ class VueWestBlock
         $shared = match ($type) {
             'vue_about_us' => [static::image('image')],
             'vue_faqs' => [static::image('image')],
-            'vue_branded' => [static::image('images')->multiple()->reorderable()],
+            'vue_branded' => [static::image('images')
+                ->multiple()
+                ->reorderable()
+                ->panelLayout('grid')
+                ->imagePreviewHeight('12rem')
+                ->openable()
+                ->extraAttributes(['class' => 'brand-logo-upload'])
+                ->helperText('Drag logos to reorder them. They appear in one horizontal row on the website.')],
             'vue_masthead' => [static::image('masthead_image')],
             'vue_header' => [static::image('header_image'), static::image('header_bg_image'), static::image('animation_image')],
             'vue_hero' => [static::image('image'), TextInput::make('button_link')->label('Button link')],

@@ -24,4 +24,21 @@
     .dark .page-block-editor > ul > * > li.fi-fo-repeater-item > .fi-fo-repeater-item-header {
         background: #27272a;
     }
+
+    .brand-logo-upload .filepond--root {
+        max-width: 70rem;
+    }
+    .brand-logo-upload .filepond--image-preview {
+        background: #fff;
+    }
+    .brand-logo-upload .filepond--image-clip {
+        transform: scale(3.5) !important;
+        transform-origin: center;
+    }
+    .brand-logo-upload .filepond--image-preview-overlay-idle {
+        display: none;
+    }
+    .dark .brand-logo-upload .filepond--image-preview {
+        background: #f8fafc;
+    }
 </style>
